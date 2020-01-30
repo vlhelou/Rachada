@@ -1,0 +1,31 @@
+{
+  "name": "rachada",
+  "version": "1.0.0",
+  "description": "controle de debitos e cretidos para rachadas",
+  "main": "src/loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlhelou/Rachada.git"
+  },
+  "author": "Vassili Lages Helou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlhelou/Rachada/issues"
+  },
+  "homepage": "https://github.com/vlhelou/Rachada#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-query-int": "^3.0.0",
+    "pg": "^7.17.1",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
