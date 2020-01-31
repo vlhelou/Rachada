@@ -22,10 +22,13 @@ router.get('/', function (req, res) {
     
 });
 
+
 router.post('/usuario/registra', usuario.Registra)
+router.post('/usuario/registravazio', usuario.RegistraVazio)
 router.post('/usuario/login', usuario.Login)
 
 router.post('/despesa/grava', despesa.Grava)
+router.post('/despesa/crialancamento', despesa.CriaLancamento)
 
 // define the about route
 router.get('/about', function (req, res) {

@@ -2,7 +2,7 @@
   "name": "rachada",
   "version": "1.0.0",
   "description": "controle de debitos e cretidos para rachadas",
-  "main": "src/loader.js",
+  "main": "loader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
